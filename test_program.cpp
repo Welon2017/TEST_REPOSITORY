@@ -6,6 +6,12 @@ int func_main_1()
     return 0;
 }
 
+int func_main_middle()
+{
+    std::cout << "改变更只进行提交缓存(commit)，不进行推送(push)！！！" << std::endl;
+    return 0;
+}
+
 int main()
 {
     std::cout << "This is main branch" << std::endl;
